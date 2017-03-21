@@ -120,9 +120,9 @@ def step(visual, board, color='blue'):
     dead, born = generate_new_generation(board)
     visual.clear()
     visual.draw_matrix(board, color)
-    visual.draw_list(dead, 'red')
+    #visual.draw_list(dead, 'red')
     #visual.draw_list(born, 'green')
-    #visual.canvas_update()
+    visual.canvas_update()
 
 
 def stop():
